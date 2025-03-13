@@ -159,7 +159,7 @@ https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
 
 Vi kunne bruge følgende relevante kriterier:
 - "-type f" - viser kun filer (f står for filer)
-- "-size 1033c" - viser kun filer med størrelsen 1033 bit (hvert c er 1 bit stor)
+- "-size 1033c" - viser kun filer med størrelsen 1033 bit (c står for bit)
 - "! -executable" - viser kun filer der **ikke** er executable ("!" negerer kriteriet den skal være executable)
 
 Det samles til kommandoen:
