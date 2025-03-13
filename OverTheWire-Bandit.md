@@ -158,9 +158,9 @@ til at gå til internettet.
 https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
 
 Vi kunne bruge følgende relevante kriterier:
-- "-type f" - viser kun filer
-- "-size 1033c" - viser kun filer med størrelsen 1033 bit
-- "! -executable" - viser kun filer der **ikke** er executable (pga. "!")
+- "-type f" - viser kun filer (f står for filer)
+- "-size 1033c" - viser kun filer med størrelsen 1033 bit (hvert c er 1 bit stor)
+- "! -executable" - viser kun filer der **ikke** er executable ("!" negerer kriteriet den skal være executable)
 
 Det samles til kommandoen:
 find -type f -size 1033c ! -executable
