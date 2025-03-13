@@ -114,6 +114,7 @@ Man kan så bruge "file -- *" for at se alle navne, her er * undtaget af hvad de
 
 Det bliver altså hurtigt åbenlyst vi leder efter filen "-file07", da dette er den eneste
 som består af ASCII text, hvilket er det passworded også står i. Det gør "data" ikke:
+
 ![image](https://github.com/user-attachments/assets/780cfb7c-6a61-4369-b969-e432c56e9a36)
 
 vi åbner fil 07 med "cat ./"
@@ -122,3 +123,56 @@ vi åbner fil 07 med "cat ./"
 
 #### Passworded bliver altså:
 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+
+
+## Level 5 -> 6
+Vi starter endnu en gang med at logge ind på næste level, her "bandit5"
+
+I denne opgave skal vi også locate en fil.
+Denne gang har filen følgende egenskaber:
+-  human-readable
+-  1033 bytes in size
+-  not executable
+
+Vi bruger først "ls"
+Her kan der ses at der findes en directory "inhere"
+Med "cd inhere" går vi derind.
+
+Igen med "ls" finder vi disse filer:
+![image](https://github.com/user-attachments/assets/b0a9512d-06a5-47b4-b673-9ba95964bab0)
+
+Her benytter vi først "File *" til at finde hvilke der er "human-readable", som er kriterie 1.
+Det bliver så tydeligt de alle er directories:
+![image](https://github.com/user-attachments/assets/af4bb159-34e7-444d-9fc6-00a1104230ab)
+
+Der må dog være en bedre vej at tjekke individuelt alle.
+Med "find" kan vi dog se en lang liste filer under hver directory.
+Her er det relevant at bide mærke i at nogle af navnene har mellemrum.
+
+For at finde hvordan man kan udspecificere kriterier med find, var jeg dog nød
+til at gå til internettet.
+
+Vi kunne bruge følgende relevante kriterier:
+"-type f" - viser kun filer
+"-size 1033c" - viser kun filer med størrelsen 1033 bit
+"! -executable" - viser kun filer der **ikke** er executable (pga. "!")
+
+Det samles til kommandoen:
+find -type f -size 1033c ! -executable
+
+![image](https://github.com/user-attachments/assets/103ae835-8bd2-48ec-8d50-14170c37656f)
+
+Dette leder os til:
+Directory "mabyhere07" med dens fil ".file2"
+Her kan vi bruge "cat [directory name]/"[file name]"
+
+![image](https://github.com/user-attachments/assets/3f61c2e0-cdeb-45be-be5a-d080b7e8951f)
+
+#### Passworded bliver altså:
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+
+
+
+
