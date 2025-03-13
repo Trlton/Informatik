@@ -99,7 +99,7 @@ Vi kan nu åbne "...Hiding-From-You" med: cat ./[filnavn]  - altså: cat ./...Hi
 ## Level 4 -> 5
 I denne opgave starter vi med at logge ind på bandit4
 
-Her skal vi finde hvilken fil blandt 8 har passwordet.
+Her skal vi finde hvilken fil blandt 10 har passwordet.
 Vi kunne tjekke alle individuelt, men lad os i stedet lære noget.
 
 Vi kan benytte "file" til at tjekke hvilken type info de har.
@@ -107,6 +107,18 @@ Vi kunne også her tjekke / skrive alle filnavnene individuelt,
 men i stedet kan vi benytte "file *" for at tjekke alle filer.
 Dog er der problemet at alle filernes navne begynder med "-", 
 som gør den tror den skal tage en kommando, særligt i det alle starter med -f[resten af navn]
+Dog, ligesom med "cat", kan man skrive "file --" for at alt efter ses som navne kun.
+Man kan så bruge "file -- *" for at se alle navne, her er * undtaget af hvad der ses som navne.
 
+![image](https://github.com/user-attachments/assets/04f86d0c-c5eb-40f8-ad26-5eeb8be3ebb1)
 
+Det bliver altså hurtigt åbenlyst vi leder efter filen "-file07", da dette er den eneste
+som består af ASCII text, hvilket er det passworded også står i. Det gør "data" ikke:
+![image](https://github.com/user-attachments/assets/780cfb7c-6a61-4369-b969-e432c56e9a36)
 
+vi åbner fil 07 med "cat ./"
+
+![image](https://github.com/user-attachments/assets/5365a863-9762-4479-8e46-54b331034aa5)
+
+#### Passworded bliver altså:
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
