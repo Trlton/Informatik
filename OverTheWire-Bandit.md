@@ -35,3 +35,7 @@ cat readme
 #### Passworded vi kiggede efter er altså så:
 ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
+Dette bruger vi så tli at logge ind til bandit1, her benytter jeg PuTTY
+![image](https://github.com/user-attachments/assets/6dc94fff-907f-4cb4-8f5c-f9f605df6bad)
+
+
