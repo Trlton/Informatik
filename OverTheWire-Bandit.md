@@ -71,6 +71,8 @@ Denne omklamrelse af navnet viser det er et navn, hvilket endte med at virke.
 
 Jeg blev dog først sikker på dette efter jeg googlede det, da jeg skrev filnavnet forkert
 de gange jeg forsøgte det samme selv.
+Link til kilde: https://linuxhandbook.com/filename-spaces-linux/
+
 Note til mig selv: vær sikker på du skriver det rigtige filnavn
 
 #### Passworded bliver altså:
@@ -151,7 +153,9 @@ Med "find" kan vi dog se en lang liste filer under hver directory.
 Her er det relevant at bide mærke i at nogle af navnene har mellemrum.
 
 For at finde hvordan man kan udspecificere kriterier med find, var jeg dog nød
-til at gå til internettet.
+til at gå til internettet. 
+
+https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
 
 Vi kunne bruge følgende relevante kriterier:
 "-type f" - viser kun filer
