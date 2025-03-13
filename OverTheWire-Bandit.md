@@ -39,3 +39,20 @@ Dette bruger vi så tli at logge ind til bandit1, her benytter jeg PuTTY
 ![image](https://github.com/user-attachments/assets/6dc94fff-907f-4cb4-8f5c-f9f605df6bad)
 
 
+
+## Level 1->2
+I dette level er vi loggede på bandit1
+Vi skal finde et password i en fil kaldet - located in the home directory
+
+Vi kan buge ls commanden til at se hvilke filer der er.
+Der står "-" som den eneste. Da "-" er et specielt tegn, can vi ikke bare skrive cat -.
+Her er vi nød til at vise det et filnavn ved: cat ./-
+
+Output:
+![image](https://github.com/user-attachments/assets/3fbab476-af5e-4224-a013-64d1f5d31d3a)
+
+#### Vi har altså nu vores password til næste level:
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+
+
