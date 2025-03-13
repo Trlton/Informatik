@@ -15,4 +15,5 @@ Dette var dog heller ikke løsningen.
 
 Til sidst spurgte jeg ChatGBT, hvortil den kunne svare inputtet bare var gemt.
 Efter jeg forsøgte at logge ind igen kom jeg ind:
+###### Hermed er level 0 done
 ![image](https://github.com/user-attachments/assets/d4f5febc-c919-43d9-8f90-7fbcd1550469)
