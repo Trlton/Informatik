@@ -57,5 +57,12 @@ Herover kan man se inputtet ikke tjekkes men benyttes direkte i challenges = get
 
 ####  SQL Injection private info del
 
+I det vi har opdaget forrige svaghed i programmet kan vi eksperimnetere med andre SQL Injections:
+
+Ved brug af: 
+````sh
+' AND '1' = '2' UNION SELECT name FROM sqlite_master WHERE type ='table' AND name NOT LIKE 'sqlite_%25
+````
+![image](https://github.com/user-attachments/assets/8b0778c7-df14-42ca-88fb-b9456dcb7fc2)
 
 
