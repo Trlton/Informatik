@@ -62,7 +62,8 @@ https://www.varonis.com/blog/netcat-commands
 
 ## 5. Session Layer  
 - Håndterer sessionsoprettelse, vedligeholdelse og afslutning  
-- **Anvendes i:** SSH, NetBIOS, RPC  
+- **Anvendes i:** SSH, NetBIOS, RPC
+- **ncat** ligger i denne 
 
 ## 6. Presentation Layer  
 - Dataformatering, kryptering og komprimering  
