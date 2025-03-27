@@ -82,5 +82,6 @@ I princippet kan vi godt få '1' = '2' til at være true, hvis både /1 og /2 ha
 Men ved at sige '' får vi formentligt ikke noget, da ```` ```` ikke er et almindeligt navn
 Vi kan dog inkludere begge for at gøre det mindre sandsynligt det returnerer true
 
-
-
+# TODO
+forklar:
+![image](https://github.com/user-attachments/assets/d3986f21-d278-473a-a270-4c016437c8c1)
