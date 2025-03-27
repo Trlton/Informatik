@@ -65,4 +65,22 @@ Ved brug af:
 ````
 ![image](https://github.com/user-attachments/assets/8b0778c7-df14-42ca-88fb-b9456dcb7fc2)
 
+Her kan det ses at serveren er crashed, det ses også tydeligt i console:
+
+![image](https://github.com/user-attachments/assets/8410cc94-cb6d-4999-9780-5cea50405221)
+
+
+Vi får også forslaget at benytte følgende:
+`````sh
+' AND '1' = '2' UNION SELECT 'table_name', name FROM sqlite_master WHERE type ='table' AND name NOT LIKE 'sqlite_%25
+`````
+![image](https://github.com/user-attachments/assets/af31b400-037a-4626-b2bb-003073e93277)
+
+Vi kan nu begynde at prøve at få en forståelse for hvordan det fungerer:
+I denne injection ses det at når cpf = '' **og** når '1'='2', dette vil næsten altid return false.
+I princippet kan vi godt få '1' = '2' til at være true, hvis både /1 og /2 har præcist samme data (hvis de er kloner)
+Men ved at sige '' får vi formentligt ikke noget, da ````/```` ikke er et almindeligt navn
+Vi kan dog inkludere begge for at gøre det mindre sandsynligt det returnerer true
+
+
 
