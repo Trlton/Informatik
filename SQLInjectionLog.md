@@ -1,3 +1,3 @@
 # SQL Injection challenges
 
-## Challenge 1
+## Expected usage: 111.111.111-11
