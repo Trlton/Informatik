@@ -32,6 +32,8 @@ Vi går videre til næste challenge:
 
 
 ## ' or '1' = '1
+
+### SQL Injection pub info
 Denne challenge starter vi med at tilgå siden blablabla.io/challenge/[overstående]
 
 ![image](https://github.com/user-attachments/assets/9df93ea8-0b0a-44ab-9134-a3c08f3a69d4)
@@ -51,4 +53,9 @@ hvilket gør programmet / serveren vulnerable for SQL Injection.
 ![image](https://github.com/user-attachments/assets/8f995a32-c6d5-4873-8208-6aaa5ecf5f23)
 
 Herover kan man se inputtet ikke tjekkes men benyttes direkte i challenges = get_challenges_for_candidate(cpf)
+
+
+###  SQL Injection private info del
+
+
 
