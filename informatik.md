@@ -8,6 +8,16 @@
   curl -X GET https://example.com/api
   ```  
 
+## NC - NetCat / ncat
+- Ligesom cat -> spytter alt tekst ud i en fil
+- NetCat bruges til at forbinde til en server, så derfra bestemmer man selv hvad man vil få ud
+- NetCar kan lytte efter forbindelse med
+```sh
+ncat -l [port f.eks 8080]
+```
+-l = listen
+
+
 ## Nmap  
 - Netværksscanner til kortlægning af netværk og opdagelse af åbne porte  
 - Anvendes til sikkerhedsanalyse og penetrationstests  
