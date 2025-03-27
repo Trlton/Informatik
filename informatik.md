@@ -17,6 +17,12 @@ ncat -l [port f.eks 8080]
 ```
 -l = listen
 
+andre ncat commands:
+```sh 
+https://www.varonis.com/blog/netcat-commands
+```
+
+
 
 ## Nmap  
 - Netværksscanner til kortlægning af netværk og opdagelse af åbne porte  
