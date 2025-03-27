@@ -1,0 +1,57 @@
+# Tools  
+
+## Curl  
+- Bruges til at lave HTTP-anmodninger fra kommandolinjen  
+- Kan hente data fra web-API'er, teste endpoints, downloade filer  
+- **Eksempel:**  
+  ```sh
+  curl -X GET https://example.com/api
+  ```  
+
+## Nmap  
+- Netværksscanner til kortlægning af netværk og opdagelse af åbne porte  
+- Anvendes til sikkerhedsanalyse og penetrationstests  
+- **Eksempel:**  
+  ```sh
+  nmap -sV -p 80,443 example.com
+  ```
+
+# Flask + SQLite  
+- **Flask**: Letvægts Python-webframework til API'er og webapps  
+- **SQLite**: Embedded databasesystem, godt til mindre projekter  
+- **Eksempel:** Flask + SQLite kan bruges til en simpel CRUD-app  
+
+# Bug Bounty & Responsible Disclosure  
+- **Bug Bounty**: Programmer hvor virksomheder belønner sikkerhedsforskere for at finde sårbarheder  
+- **Responsible Disclosure**: Etiske retningslinjer for at rapportere sårbarheder på en ansvarlig måde  
+- **CVE (Common Vulnerabilities and Exposures)**: Unik ID for kendte sårbarheder (fx CVE-2024-XXXX)  
+
+# OSI Model  
+
+## 1. Physical Layer  
+- Fysiske forbindelser (kabler, signaler, radiofrekvenser)  
+- Hardware som routere, switche, access points  
+
+## 2. Data Link Layer  
+- Sikrer fejlfri datatransmission mellem enheder  
+- **Teknologier:** MAC-adresser, Ethernet, Wi-Fi (802.11)  
+
+## 3. Network Layer  
+- Ruting af pakker mellem netværk  
+- **Protokoller:** IP, ICMP, ARP  
+
+## 4. Transport Layer  
+- Sikrer pålidelig eller upålidelig dataoverførsel  
+- **Protokoller:** TCP (pålidelig, forbindelsesorienteret), UDP (hurtig, forbindelsesløs)  
+
+## 5. Session Layer  
+- Håndterer sessionsoprettelse, vedligeholdelse og afslutning  
+- **Anvendes i:** SSH, NetBIOS, RPC  
+
+## 6. Presentation Layer  
+- Dataformatering, kryptering og komprimering  
+- **Eksempler:** SSL/TLS (kryptering), ASCII/EBCDIC (tekstkodning)  
+
+## 7. Application Layer  
+- Brugerinteraktion og applikationsprotokoller  
+- **Protokoller:** HTTP, FTP, SMTP, DNS  
