@@ -72,3 +72,9 @@ https://www.varonis.com/blog/netcat-commands
 ## 7. Application Layer  
 - Brugerinteraktion og applikationsprotokoller  
 - **Protokoller:** HTTP, FTP, SMTP, DNS  
+
+# SQL injection
+Det handler om at der er en computer der skal læse ting
+Hvis man kan få computeren til at end indtastede brugernavn er en commando
+Så afvikler den det og giver tilbage / gør det du vil have den til
+Det kan ødelægge en database
