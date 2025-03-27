@@ -79,7 +79,7 @@ Vi får også forslaget at benytte følgende:
 Vi kan nu begynde at prøve at få en forståelse for hvordan det fungerer:
 I denne injection ses det at når cpf = '' **og** når '1'='2', dette vil næsten altid return false.
 I princippet kan vi godt få '1' = '2' til at være true, hvis både /1 og /2 har præcist samme data (hvis de er kloner)
-Men ved at sige '' får vi formentligt ikke noget, da ````/```` ikke er et almindeligt navn
+Men ved at sige '' får vi formentligt ikke noget, da ```` ```` ikke er et almindeligt navn
 Vi kan dog inkludere begge for at gøre det mindre sandsynligt det returnerer true
 
 
