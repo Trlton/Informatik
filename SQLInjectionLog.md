@@ -26,7 +26,29 @@ Det fordi den aldrig faktisk havde adgang til at lave det gennem pycharm
 ![image](https://github.com/user-attachments/assets/b3aaf38e-db5e-4654-968b-36be763e7750)
 
 Det lader til challengen var at åbne de 3 id's på det virtuelle inviornment.
+
 Vi går videre til næste challenge:
 
+
+
 ## ' or '1' = '1
+Denne challenge starter vi med at tilgå siden blablabla.io/challenge/[overstående]
+
+![image](https://github.com/user-attachments/assets/9df93ea8-0b0a-44ab-9134-a3c08f3a69d4)
+
+
+Forståelse af hvorfor alle users værdier blev vist:
+
+![image](https://github.com/user-attachments/assets/335cb618-2182-4518-824c-c09dd739fb2a)
+
+cpf indsættes som ' or '1' = '1
+nu bliver "where" statementet til:
+WHERE u.cpf = '' or '1' = '1'
+
+Inputtet fra brugeren blev ikke tjekket af koden, hvilket gjorde dette input blev godtaget af programmet,
+hvilket gør programmet / serveren vulnerable for SQL Injection.
+
+![image](https://github.com/user-attachments/assets/8f995a32-c6d5-4873-8208-6aaa5ecf5f23)
+
+Herover kan man se inputtet ikke tjekkes men benyttes direkte i challenges = get_challenges_for_candidate(cpf)
 
