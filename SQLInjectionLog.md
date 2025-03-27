@@ -1,3 +1,6 @@
+Website med everything:
+https://guicommits.com/how-sql-injection-attack-works-with-examples/
+
 # SQL Injection challenges
 
 ## Expected usage: 111.111.111-11
@@ -85,3 +88,6 @@ Vi kan dog inkludere begge for at gøre det mindre sandsynligt det returnerer tr
 # TODO
 forklar:
 ![image](https://github.com/user-attachments/assets/d3986f21-d278-473a-a270-4c016437c8c1)
+
+vi fortsætter fra tidligere:
+
