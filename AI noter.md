@@ -14,4 +14,10 @@ framework til nemt at generere AI modeller
 Man fodrer med træningsdata, vælger kategori af noget data 
 og så kan man teste med f.eks. webcam hvor god den er.
 
+Den kan både genkende og lave:
+- images (f.eks. poses)
+- audio (som f.eks en kvinde stemme)
+- Context
 
+Man kan derefter få eksporterert en fil med vægtene der ligger bag det her deep nural network ind i sin egen kode.
+Man kan f.eks. få det ind i Python og JavaScript.
