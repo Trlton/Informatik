@@ -33,7 +33,7 @@ Præsentation har blokkode side, hvor man kan programere dronen til at flyve en 
 Modtager fra data, og sender video (streaming af flyvetur) til præsentation.
 Modtager data fra undersidekameraret, og benytter det til at stabilisere og flyve den korrekte afstand.
 
-## Modtager 
+## Data laget: (modtager) 
 
 Data:
 ### Opbevare data
