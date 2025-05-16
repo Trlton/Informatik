@@ -27,13 +27,14 @@ Man kan derefter få eksporterert en fil med vægtene der ligger bag det her dee
 Man kan f.eks. få det ind i Python og JavaScript.
 
 
+# Træning af AI / machinelearning
+
 
 ## Træning af AI machine learning
 For at man træne dem på f.eks. en faxekondi,
 så skal man have rigtig mange billeder af en faxekondi,
 for at det andet ses som støj og ikke kigges efter.
 
-# Træning af AI / machinelearning
 
 ## Region of interest
 Man kan dog også cascade det, så man starter med en
