@@ -7,7 +7,7 @@ Det kan repræsenteres af høj og lav volt ( 0 når v<0.8, 1 når v>2)
 ## Transistorer
 
 # Div gates
-
+--------------------------------
 ### And gates:
  Til højre ses en 
 And gate.
@@ -20,6 +20,7 @@ så er den on.
 
 
 
+--------------------------------
 
 ### Or gates:
 
@@ -31,6 +32,7 @@ så er output on.
 
 
 
+--------------------------------
 ### Not gates:
 
 Denne gate
@@ -41,6 +43,7 @@ ud i output.
 
 
 
+--------------------------------
 ### NAND
 
 Kombination af
@@ -52,7 +55,8 @@ input on.
 
 <img width="521" height="625" alt="image" src="https://github.com/user-attachments/assets/b5be0cce-16a0-486f-ba98-858306ca0cbb" />
 
- 
+
+-------------------------------- 
 ### Negative addition
 
 #### Positive and negative 4 bit system
