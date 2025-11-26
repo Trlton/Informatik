@@ -1,6 +1,6 @@
 # Forord
-Se evt følgende dokumenter for at se noter:
-- 
+### Se evt følgende dokumenter for at se noter:
+- Gates 'n stuff.md
 
 
 # 26-11-2025
