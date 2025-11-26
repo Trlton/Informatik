@@ -8,7 +8,7 @@ Det kan repræsenteres af høj og lav volt ( 0 når v<0.8, 1 når v>2)
 
 # Div gates
 
-## And gates:
+### And gates:
  Til højre ses en 
 And gate.
 Hvis begge inputs
@@ -21,7 +21,7 @@ så er den on.
 
 
 
-## Or gates:
+### Or gates:
 
  Hvis den får on-input
 fra en af inputsne,
@@ -31,7 +31,7 @@ så er output on.
 
 
 
-## Not gates:
+### Not gates:
 
 Denne gate
 inverter input
@@ -41,7 +41,7 @@ ud i output.
 
 
 
-## NAND
+### NAND
 
 Kombination af
 Not & And gate.
@@ -53,13 +53,13 @@ input on.
 <img width="521" height="625" alt="image" src="https://github.com/user-attachments/assets/b5be0cce-16a0-486f-ba98-858306ca0cbb" />
 
  
-## Negative addition
+### Negative addition
 
-### Positive and negative 4 bit system
+#### Positive and negative 4 bit system
 
 <img width="444" height="129" alt="image" src="https://github.com/user-attachments/assets/5af97e3f-f997-46d2-a24a-3b91624e07f9" />
 
-### Conversion of numbers
+#### Conversion of numbers
 For at finde den negative værdi af en værdi,
 så skal man:
 	1) Invert numbers
