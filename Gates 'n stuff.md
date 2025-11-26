@@ -15,6 +15,9 @@ Hvis begge inputs
 er 1 / input er høj,
 så er den on.
 
+<img width="399" height="518" alt="image" src="https://github.com/user-attachments/assets/0d8bdeea-43d2-4d8d-9d57-d5d1f3b0dec5" />
+
+
 
 
 
@@ -24,6 +27,7 @@ så er den on.
 fra en af inputsne,
 så er output on.
 
+<img width="294" height="407" alt="image" src="https://github.com/user-attachments/assets/3e0e574c-5244-4062-8a6c-88a351ade1b6" />
 
 
 
@@ -33,6 +37,7 @@ Denne gate
 inverter input
 ud i output.
 
+<img width="625" height="598" alt="image" src="https://github.com/user-attachments/assets/7021a504-3542-400e-8560-68dcf5337cce" />
 
 
 
@@ -45,14 +50,14 @@ for at der er intet
 output. Eller er
 input on.
 
+<img width="521" height="625" alt="image" src="https://github.com/user-attachments/assets/b5be0cce-16a0-486f-ba98-858306ca0cbb" />
+
  
 ## Negative addition
 
 ### Positive and negative 4 bit system
 
-	 -8x	4x	2x	1x
-7 = 0	  1	  1	  1
--7	1	  0	  0	  1
+<img width="444" height="129" alt="image" src="https://github.com/user-attachments/assets/5af97e3f-f997-46d2-a24a-3b91624e07f9" />
 
 ### Conversion of numbers
 For at finde den negative værdi af en værdi,
