@@ -50,4 +50,9 @@ så giver output 1.
 
 <img width="749" height="333" alt="image" src="https://github.com/user-attachments/assets/afb6f87e-85a3-401a-ad7e-99850389f35f" />
 
+### Full ADDER
+Dette fungerer som 1-bit addition, men med eventuel rest der lægges oveni.
+Det kan benyttes hvis man har f.eks. 8-bit addition.
+
+<img width="857" height="387" alt="image" src="https://github.com/user-attachments/assets/d360838e-98d8-4e6d-a7f6-3fea6c85cd1a" />
 
