@@ -56,3 +56,14 @@ Det kan benyttes hvis man har f.eks. 8-bit addition.
 
 <img width="857" height="387" alt="image" src="https://github.com/user-attachments/assets/d360838e-98d8-4e6d-a7f6-3fea6c85cd1a" />
 
+
+# 27-11-2025
+
+Nu vil jeg bygge en 8 bit adder. Til hjælp så jeg denne video,
+hvis 4-bit adder kan skaleres op til en 8-bit adder:
+
+https://www.youtube.com/watch?v=QZwneRb-zqA
+
+### 8-Bit adder
+
+
