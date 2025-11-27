@@ -70,3 +70,12 @@ For at senere kunne multiplicere osv, så har jeg gjort så der er en indicator 
 Altså hvis der er overflod. Det er dog det maksimale overflor, så derfor 1 i 9'ende bit.
 
 <img width="1534" height="853" alt="image" src="https://github.com/user-attachments/assets/a1c62ff1-b195-42ba-a86b-f0319e402fbe" />
+
+
+### ALU
+Idet der skal være både addition og subtraktion, så er en 8-Bit adder ikke helt nok.
+Rundt om den kan man lave en ALU. Her tages der udgangspunkt i denne video:
+
+https://www.youtube.com/watch?v=QZwneRb-zqA
+
+I videoen viser han hvordan man kan lave en ALU med XOR gates.
