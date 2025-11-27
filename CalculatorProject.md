@@ -65,5 +65,11 @@ hvis 4-bit adder kan skaleres op til en 8-bit adder:
 https://www.youtube.com/watch?v=QZwneRb-zqA
 
 ### 8-Bit adder
+Herunder er et billede af den 8-bit adder jeg har lavet:
+For at senere kunne multiplicere osv, så har jeg gjort så der er en indicator hvis d. 9'ende bit hat et 1-tal i sig.
+Altså hvis der er overflod. Det er dog det maksimale overflor, så derfor 1 i 9'ende bit.
+
+
+<img width="1591" height="852" alt="image" src="https://github.com/user-attachments/assets/7f69b97e-ad67-49b0-9c08-4b082a774ef3" />
 
 
