@@ -69,7 +69,4 @@ Herunder er et billede af den 8-bit adder jeg har lavet:
 For at senere kunne multiplicere osv, så har jeg gjort så der er en indicator hvis d. 9'ende bit hat et 1-tal i sig.
 Altså hvis der er overflod. Det er dog det maksimale overflor, så derfor 1 i 9'ende bit.
 
-
-<img width="1591" height="852" alt="image" src="https://github.com/user-attachments/assets/7f69b97e-ad67-49b0-9c08-4b082a774ef3" />
-
-
+<img width="1534" height="853" alt="image" src="https://github.com/user-attachments/assets/a1c62ff1-b195-42ba-a86b-f0319e402fbe" />
