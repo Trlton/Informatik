@@ -56,14 +56,15 @@ Det kan benyttes hvis man har f.eks. 8-bit addition.
 
 <img width="857" height="387" alt="image" src="https://github.com/user-attachments/assets/d360838e-98d8-4e6d-a7f6-3fea6c85cd1a" />
 
+_____________________________________________________________________________________________________
 
 # 27-11-2025
-
 Nu vil jeg bygge en 8 bit adder. Til hjælp så jeg denne video,
 hvis 4-bit adder kan skaleres op til en 8-bit adder:
 
 https://www.youtube.com/watch?v=QZwneRb-zqA
 
+------------------------------------------------------------------------------------------------------
 ### 8-Bit adder
 Herunder er et billede af den 8-bit adder jeg har lavet:
 For at senere kunne multiplicere osv, så har jeg gjort så der er en indicator hvis d. 9'ende bit hat et 1-tal i sig.
@@ -71,7 +72,7 @@ Altså hvis der er overflod. Det er dog det maksimale overflor, så derfor 1 i 9
 
 <img width="1534" height="853" alt="image" src="https://github.com/user-attachments/assets/a1c62ff1-b195-42ba-a86b-f0319e402fbe" />
 
-
+------------------------------------------------------------------------------------------------------
 ### ALU
 Idet der skal være både addition og subtraktion, så er en 8-Bit adder ikke helt nok.
 Rundt om den kan man lave en ALU. Her tages der udgangspunkt i denne video:
@@ -79,3 +80,14 @@ Rundt om den kan man lave en ALU. Her tages der udgangspunkt i denne video:
 https://www.youtube.com/watch?v=QZwneRb-zqA
 
 I videoen viser han hvordan man kan lave en ALU med XOR gates.
+
+
+
+#### Resultat = 0 indicator
+I videoen laver han funktionelt set en NOR4 gate.
+Dette gøres bare med 4 NOT-gates og 3-AND gates.
+<img width="698" height="172" alt="image" src="https://github.com/user-attachments/assets/84fe13c1-5532-4d4d-a25a-c386f0d8c864" />
+
+
+For at det er mindre rodet laver jeg en NOR8-gate som en subkomponent.
+<img width="822" height="460" alt="image" src="https://github.com/user-attachments/assets/ef54782b-ba21-426d-bd33-0b23d51b14dc" />
