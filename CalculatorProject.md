@@ -91,3 +91,27 @@ Dette gøres bare med 4 NOT-gates og 3-AND gates.
 
 For at det er mindre rodet laver jeg en NOR8-gate som en subkomponent.
 <img width="822" height="460" alt="image" src="https://github.com/user-attachments/assets/ef54782b-ba21-426d-bd33-0b23d51b14dc" />
+
+
+
+
+#### Selve ALU'en
+<img width="1220" height="920" alt="image" src="https://github.com/user-attachments/assets/2d44f67f-5c84-441d-aca7-af86a0d7a715" />
+
+Måden hvorpå der laves subtraktion.
+Den tager brug af two's complement, hvor man, ligesom en kvint cirkel i musik, har en "cirkel" mam går rundt, når man adderer tal på.
+
+Det gør så man reelt går fra 0 til 127, hvorefter den hopper til -128 og går mod 0 (-127,...,-2,-1,0)
+
+
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/d7079e0a-dcf9-4fa6-98f9-eebaae8f69bb" />
+
+
+Herunder ses et eksempel på -127-(-128):
+Her displayer den korrekt 1 som output.
+
+Den indikerer også en overflod (carry), hv
+
+<img width="635" height="360" alt="image" src="https://github.com/user-attachments/assets/57094905-c448-47f4-bd12-bf3794f4ab4f" />
+
+
