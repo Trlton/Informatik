@@ -115,3 +115,18 @@ Den indikerer også en overflod (carry), hv
 <img width="635" height="360" alt="image" src="https://github.com/user-attachments/assets/57094905-c448-47f4-bd12-bf3794f4ab4f" />
 
 
+
+# 2-12-2025
+
+Efterhånden er det på tide at lave multiplikation.
+
+Med dette tager man udgangspunkt i, at multiplikaiton bare er gentagen addition.
+
+
+
+
+
+
+
+
+
