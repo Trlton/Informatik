@@ -63,7 +63,7 @@ input on.
 
 <img width="444" height="129" alt="image" src="https://github.com/user-attachments/assets/5af97e3f-f997-46d2-a24a-3b91624e07f9" />
 
-#### Conversion of numbers
+#### Conversion of numbers (Signed intigers, 2-conversion system)
 For at finde den negative værdi af en værdi,
 så skal man:
 	1) Invert numbers
