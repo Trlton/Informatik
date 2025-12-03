@@ -116,7 +116,7 @@ Den indikerer også en overflod (carry), hv
 
 
 
-# 2-12-2025
+# 3-12-2025
 
 Efterhånden er det på tide at lave multiplikation.
 
