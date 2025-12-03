@@ -118,6 +118,16 @@ Den indikerer også en overflod (carry), hv
 
 # 3-12-2025
 
+### En del af denne dag bruges til at gøre det mindre visuelt rodet
+
+Dette gøres primært ved at få de forskellige sub-komponenter til at modtage og outputte i 8bit i stedet for 8x1 bit.
+
+#### ALU efter oprydning:
+
+<img width="900" height="250" alt="image" src="https://github.com/user-attachments/assets/4f9adf03-8df0-4388-9bde-e6b5360d43af" />
+
+
+
 Efterhånden er det på tide at lave multiplikation.
 
 Med dette tager man udgangspunkt i, at multiplikaiton bare er gentagen addition.
