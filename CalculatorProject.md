@@ -126,6 +126,9 @@ Som inspiration benyttes følgende wiki-side om bit-multiplicators.
 
 https://en.wikipedia.org/wiki/Binary_multiplier
 
+I denne wiki-artikel er der bl.a. et eksempel på en 2-bit multiplier.
+
+<img width="750" height="473" alt="image" src="https://github.com/user-attachments/assets/901978b6-e5f6-467f-9459-8696d56a189f" />
 
 
 
