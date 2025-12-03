@@ -135,5 +135,9 @@ For at lave en 8-bit multiplier skal ovenstående reelt set opskaleres, da det e
 
 Det kan gøres således:
 
+Der skal lave registers til at håndtere:
+-
+- 
+- 
 
-
+Til dette skal 8 sammenkædede 1bit D Flip Flops bruges, altså dermed en 8bit-DFlipFlop
