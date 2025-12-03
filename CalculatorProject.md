@@ -131,8 +131,9 @@ I denne wiki-artikel er der bl.a. et eksempel på en 2-bit multiplier.
 
 <img width="641" height="465" alt="image" src="https://github.com/user-attachments/assets/32d786ba-213a-4c2a-851d-7ee78464c663" />
 
+For at lave en 8-bit multiplier skal ovenstående reelt set opskaleres, da det er grund-udgangspunkt
 
-
+Det kan gøres således:
 
 
 
