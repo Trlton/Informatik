@@ -115,6 +115,7 @@ Den indikerer også en overflod (carry), hv
 <img width="635" height="360" alt="image" src="https://github.com/user-attachments/assets/57094905-c448-47f4-bd12-bf3794f4ab4f" />
 
 
+_____________________________________________________-
 
 # 3-12-2025
 
@@ -123,10 +124,28 @@ Den indikerer også en overflod (carry), hv
 Dette gøres primært ved at få de forskellige sub-komponenter til at modtage og outputte i 8bit i stedet for 8x1 bit.
 
 #### ALU efter oprydning:
-
+--------------
 <img width="900" height="250" alt="image" src="https://github.com/user-attachments/assets/4f9adf03-8df0-4388-9bde-e6b5360d43af" />
 
+------------------
+#### 8bit XOR
 
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/1679366f-51a7-4961-b157-54123b264271" />
+
+-------------------
+
+#### 8-bit full-adder
+
+<img width="900" height="300" alt="image" src="https://github.com/user-attachments/assets/c878408a-d2cc-47cb-acbf-71697143e474" />
+
+------------------
+
+#### NOR-8
+
+<img width="500" height="225" alt="image" src="https://github.com/user-attachments/assets/c2e69cda-2c2f-485b-81f9-5ad5f102bcbd" />
+
+
+-------------
 
 Efterhånden er det på tide at lave multiplikation.
 
