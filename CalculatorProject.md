@@ -122,6 +122,9 @@ Efterhånden er det på tide at lave multiplikation.
 
 Med dette tager man udgangspunkt i, at multiplikaiton bare er gentagen addition.
 
+Som inspiration benyttes følgende wiki-side om bit-multiplicators.
+
+https://en.wikipedia.org/wiki/Binary_multiplier
 
 
 
