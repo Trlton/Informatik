@@ -128,8 +128,8 @@ https://en.wikipedia.org/wiki/Binary_multiplier
 
 I denne wiki-artikel er der bl.a. et eksempel på en 2-bit multiplier.
 
-<img width="750" height="473" alt="image" src="https://github.com/user-attachments/assets/901978b6-e5f6-467f-9459-8696d56a189f" />
 
+<img width="641" height="465" alt="image" src="https://github.com/user-attachments/assets/32d786ba-213a-4c2a-851d-7ee78464c663" />
 
 
 
