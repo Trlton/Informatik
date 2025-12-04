@@ -4,6 +4,7 @@ Atomare værdier:
 Der er værdier man ikke kan opdele mere i:
 Som f.eks. Man skal ikke have fuldt navn. Atomar er fornavn, efternavn.
 
+___
 
 ## Normalformer
 Undgå redundans - opdel tabeller.
@@ -15,7 +16,7 @@ Det gør det nemmere at lave maintinance / ændringer, da ting ændres alle sted
 **Fokus:** Celler og gentagelser.
 
 * **Atomare værdier:** Hver celle må kun indeholde **én** værdi.
-* **Ingen gentagende grupper:** Må ikke have kolonner som f.eks. `vare_1`, `vare_2`.
+* **Ingen gentagende grupper:** Må ikke have kolonner som f.eks. vare_1, vare_2
 * **Fix:** Split de gentagende grupper ud i en **NY TABEL** og tag den gamle primærnøgle med over som Foreign Key.
 
 ---
