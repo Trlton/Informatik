@@ -43,4 +43,11 @@ Det gør det nemmere at lave maintinance / ændringer, da ting ændres alle sted
 
 ---
 
-**Husk:** Det er en **balancegang**. For mange joins (pga. for høj normalisering) kan faktisk **sænke performance**!
+### Eksempel på benyttelse: 
+
+
+<img width="464" height="591" alt="image" src="https://github.com/user-attachments/assets/ee4335bf-eacb-4cf7-aa57-bbfd68813f11" />
+
+
+
+
