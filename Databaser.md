@@ -41,7 +41,7 @@ Undgå redundans - opdel tabeller.
 
 * Skal overholde **2NF**.
 * **Regel:** Må ikke findes felter UDEN FOR primærnøglen, som er **indbyrdes afhængige** af hinanden.
-* **Ingen transitive afhængigheder:** (F.eks. `KundeID` $\rightarrow$ `Postnummer` $\rightarrow$ `By`).
+* **Ingen transitive afhængigheder:** (F.eks. KundeID -> Postnummer -> By).
 * **Fix:** Flyt de indbyrdes afhængige felter (som Postnummer/By-eksemplet) ud i deres **helt nye tabel**.
 
 ---
