@@ -35,7 +35,7 @@ if l["co2"] > 1000:
 if l["temperatur"] < 20:
     problemer.append("For koldt")
 ```
-
+---
 ## 2. Data Laget (SQLite)
 SQLite bruges til kontinuerlig lagring af sensordata
 
