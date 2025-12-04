@@ -26,19 +26,23 @@ Præsentation har blokkode side, hvor man kan programere dronen til at flyve en 
 
 
 ## Logik:
-### Foretage logiske beregninger
-### Hente informationer fra præsentationslaget og på baggrund af disse hente data fra datalaget
-### Lave beregninger og andre manipulationer på data fra datalaget.
+
+Foretage logiske beregninger
+
+Hente informationer fra præsentationslaget og på baggrund af disse hente data fra datalaget
+
+Lave beregninger og andre manipulationer på data fra datalaget.
 
 Modtager fra data, og sender video (streaming af flyvetur) til præsentation.
 Modtager data fra undersidekameraret, og benytter det til at stabilisere og flyve den korrekte afstand.
 
 ## Data laget: (modtager) 
 
-Data:
-### Opbevare data
-### Søge i data
-### Sende information til logiklaget.
+Opbevare data
+
+Søge i data
+
+Sende information til logiklaget.
 
 
 
@@ -54,9 +58,12 @@ Data:
 
 ## Lagene
 
-**Præsentation Lag** | Brugergrænseflade (UI). Alt det brugeren ser (Frontend).
+**Præsentation Lag** Brugergrænseflade (UI). Alt det brugeren ser (Frontend).
+
 **Logik Lag** Forretningsregler, funktioner og beregninger (Logikken)
- **Data Lag**   Håndterer databasen, datamodeller og queries (Lagring/Hentning).
+
+**Data Lag**   Håndterer databasen, datamodeller og queries (Lagring/Hentning).
+
 ----
 
 ## Eksempel på benyttelse af analyse:
