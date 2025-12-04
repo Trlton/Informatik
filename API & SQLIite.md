@@ -63,3 +63,17 @@ c.execute("""
 conn.commit()
 ```
 
+### Udtræk og Aggregering
+* API'en henter data fra SQLite til visning (f.eks. historik).
+  
+* Eksempel (/historik): Data grupperes og bliver aggregated ved brug af SQL for at vise gennemsnit pr. minut, hvilket reducerer mængden af data, der skal trækkes ud.
+```python
+
+SELECT strftime('%Y-%m-%d %H:%M:00', tidspunkt) as minut,
+       AVG(co2), # Aggregering
+       AVG(temperatur),
+       AVG(luftfugtighed)
+FROM sensor_data
+GROUP BY minut  # Gruppering
+ORDER BY minut DESC
+```
