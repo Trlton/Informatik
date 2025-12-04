@@ -8,11 +8,7 @@ Som f.eks. Man skal ikke have fuldt navn. Atomar er fornavn, efternavn.
 ## Normalformer
 Undgå redundans - opdel tabeller.
 
-# DB-Normalisering: De Vigtigste Regler
-
-**Hovedmål:** **MINIMERE REDUNDANS** (samme data gentages) for at undgå rod og sikre god performance. Vi skal kun rette fejl ét sted!
-
----
+Det gør det nemmere at lave maintinance / ændringer, da ting ændres alle steder ved at ændre det et sted.
 
 ### 1. Normalform
 
