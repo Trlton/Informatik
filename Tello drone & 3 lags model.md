@@ -42,3 +42,28 @@ Data:
 
 
 
+
+# Server-Client
+
+# 3-lags Modellen (Three-Tier Architecture)
+
+* En der opdeler systemet i tre separate lag samt hvordan de interagere med hinanden.
+* Formål: At adskille ansvar til at ungå redundans og undgå spaghetti-kode. Desuden gør det det nemmere at forstå systemer, idet det er en analysemodel.
+
+
+
+## Lagene
+
+**Præsentation Lag** | Brugergrænseflade (UI). Alt det brugeren ser (Frontend).
+**Logik Lag** Forretningsregler, funktioner og beregninger (Logikken)
+ **Data Lag**   Håndterer databasen, datamodeller og queries (Lagring/Hentning).
+----
+
+## Eksempel på benyttelse af analyse:
+
+Dette er fra første lange projekt i 3.g i informatik.
+
+<img width="1579" height="1167" alt="image" src="https://github.com/user-attachments/assets/fe668235-4396-471c-aa05-edd9e24eaecc" />
+
+
+
