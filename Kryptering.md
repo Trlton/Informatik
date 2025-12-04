@@ -1,13 +1,10 @@
-
+# Generelt om kryptering:
 
 
 
 
 
 # Krypteringsprojekt (STIGNT) eksempler
-
-
-
 
 
 <img width="711" height="557" alt="image" src="https://github.com/user-attachments/assets/ffd79f38-9d71-4dca-b346-d28025907c06" />
