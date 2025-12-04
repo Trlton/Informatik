@@ -2,19 +2,17 @@
 
 <img width="883" height="843" alt="image" src="https://github.com/user-attachments/assets/1fc8eeb6-3558-422f-8bb1-a9a43756162e" />
 
-# E/R Diagrammer: Planen for Databasen
+# E/R 
 
-**Hvad er det?**
 * Det er **planen**. En tegning af din database, FØR du bygger den.
 * Sikrer at strukturen er gennemtænkt og ikke tilfældig.
 
-## Entiteter (Kasser)
-
+## Entiteter 
 * De primære **objekter** systemet arbejder med (f.eks. Bruger, Produkt, Bestilling).
 * **Attributter:** Egenskaber/datafelter tilknyttet entiteten.
     * Her identificeres **nøgler** (ID'er) og alm. datafelter.
 
-## Relationer (Linjer)
+## Relationer 
 
 * Forbinder entiteterne og viser sammenhængen.
 * Har kardinaliteter (hvor mange relaterer til hvor mange?).
