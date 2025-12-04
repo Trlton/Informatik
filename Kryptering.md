@@ -1,6 +1,41 @@
 # Generelt om kryptering:
 
+## Kryptering
 
+Kryptering bruges med henblik på at kun den tiltænkte modtager kan læse det.
+
+Det kan dog omgås med diverse tricks - som hvis man faktisk benytter en beskedtjenestes publickey (eller en delt privatekey), og den tænkte modtager gør det samme.
+
+### 1. Symmetrisk (Secret Key)
+* **En fælles Secret Key** til både kryptering og dekryptering.
+* **Fordel:** Super hurtig.
+* **Problem:** Nøglen skal deles sikkert, før man kan kommunikere. (svært, skal basically gøres fysisk.)
+
+### 2. Asymmetrisk (Public Key)
+* Bruger nøglepar: Public Key og Secret Key.
+* **Fordel:** Løser problemet med nøgledeling, fordi Secret Key ALDRIG deles.
+* **Problem:** Langsommere.
+
+#### Nøgleparret
+* **Public Key:** Offentlig. Bruges af alle til at **kryptere** data, som kun ejeren kan læse.
+* **Secret Key:** Hemmelig. Kun **ejeren** har den. Den **eneste** der kan **dekryptere** data krypteret med den tilhørende Public Key.
+
+#### Digital Signatur
+* Bruges til at garantere **autenticitet** (hvem er afsenderen?) og **integritet** (er beskeden ændret?).
+* Afsender krypterer hash af besked med **sin Secret Key**.
+* Modtager tjekker signaturen med afsenders **Public Key**.
+
+---
+
+## Hashing (aka digitalt fingeraftryk)
+
+Hashing =  Data laves om til en hash-værdi
+
+* Det benyttes til at sikre integritet af data - ( altså, har dataen blevet pillet ved?).
+    * Hvis en bit ændres, er hashen helt anderledes.
+* **Anvendes til:**
+    * **Verificere data:** Tjekke om downloadede filer er intakte.
+    * **Adgangskoder:** Gemmer **kun hashen** af koden i DB'en. Systemet kender aldrig den originale kode.
 
 
 
