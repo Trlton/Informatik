@@ -40,6 +40,11 @@ Det gør det nemmere at lave maintinance / ændringer, da ting ændres alle sted
 ### Eksempel på benyttelse: 
 
 Denne følgende tabel opfylder Boyce-Codd modellen:
+Som kan læses om her: (jeg magtede ikke at skrive den sektion også)
+
+https://www.geeksforgeeks.org/dbms/boyce-codd-normal-form-bcnf/ 
+
+
 
 <img width="500" height="600" alt="image" src="https://github.com/user-attachments/assets/1c146e0a-e189-4c4e-90aa-7a89c0593e69" />
 
