@@ -40,8 +40,8 @@ Det gør det nemmere at lave maintinance / ændringer, da ting ændres alle sted
 ### Eksempel på benyttelse: 
 
 
-<img width="464" height="591" alt="image" src="https://github.com/user-attachments/assets/ee4335bf-eacb-4cf7-aa57-bbfd68813f11" />
 
+<img width="860" height="1031" alt="image" src="https://github.com/user-attachments/assets/7bf1a6b3-8cdf-45f0-a49b-467fa1f2465c" />
 
 
 
