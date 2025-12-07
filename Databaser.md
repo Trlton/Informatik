@@ -39,9 +39,8 @@ Det gør det nemmere at lave maintinance / ændringer, da ting ændres alle sted
 
 ### Eksempel på benyttelse: 
 
+Denne følgende tabel opfylder Boyce-Codd modellen:
 
-
-<img width="860" height="1031" alt="image" src="https://github.com/user-attachments/assets/7bf1a6b3-8cdf-45f0-a49b-467fa1f2465c" />
-
+<img width="959" height="1130" alt="image" src="https://github.com/user-attachments/assets/1c146e0a-e189-4c4e-90aa-7a89c0593e69" />
 
 
