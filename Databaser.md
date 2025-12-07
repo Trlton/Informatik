@@ -41,6 +41,6 @@ Det gør det nemmere at lave maintinance / ændringer, da ting ændres alle sted
 
 Denne følgende tabel opfylder Boyce-Codd modellen:
 
-<img width="959" height="1130" alt="image" src="https://github.com/user-attachments/assets/1c146e0a-e189-4c4e-90aa-7a89c0593e69" />
+<img width="500" height="600" alt="image" src="https://github.com/user-attachments/assets/1c146e0a-e189-4c4e-90aa-7a89c0593e69" />
 
 
