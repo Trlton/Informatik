@@ -13,6 +13,9 @@ Det kan dog omgås med diverse tricks - som hvis man faktisk benytter en beskedt
 * Shifter alle tegn en bestemt mængde
 * F.eks. JEG -> KFH når beskeden shiftes med 1 tegn/bogstav
 
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/b99c4ef4-24f2-43c6-9a3f-09c67933427a" />
+
+
 ---
 
 ### Symmetrisk (delt Secret Key)
