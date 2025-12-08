@@ -12,6 +12,7 @@ Dette blev brugt på at introduceres til div. gate typer, som f.eks:
 
 ## Projektvalg
 Jeg har valgt at gå efter "Spicy" niveau. (Foreshadowing, didn't happen)
+
 Dette inbefatter:
 
 8 bit lommeregner som kan
