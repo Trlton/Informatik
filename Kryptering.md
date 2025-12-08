@@ -40,9 +40,8 @@ Det kan dog omgås med diverse tricks - som hvis man faktisk benytter en beskedt
 * **Secret Key:** Hemmelig. Kun **ejeren** har den. Den **eneste** der kan **dekryptere** data krypteret med den tilhørende Public Key.
 
 #### Digital Signatur
-* Bruges til at garantere **autenticitet** (hvem er afsenderen?) og **integritet** (er beskeden ændret?).
-* Afsender krypterer hash af besked med **sin Secret Key**.
-* Modtager tjekker signaturen med afsenders **Public Key**.
+* Bruges til at garantere hvem afsenderen er samt om beskeden er manipulleret af en 3. part (ved at sammenligne hash).
+* Afsender krypterer hash af besked med sin Secret Key -> Modtager tjekker signaturen med afsenders Public Key.
 
 ---
 
