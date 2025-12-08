@@ -18,15 +18,15 @@ Bemærk at et it-system ikke både kan være en inkrementel innovation og en rad
 ## De Fire P'er
 
 **Produkt-innovation:** Ændring af selve produktet
-- Smartphonen samler GPS, telefon og spil i én ny enhed.
+- Mobilen samler GPS, telefonopkald og spil i en enhed.
 
 **Proces-innovation:** Ændring af de interne arbejdsprocesser i virksomheden.
 - Virksomhed går fra fysisk butikssalg til kun at handle online.
 
-**Positions-innovation:** Ændring af den **kontekst/opfattelse** systemet anvendes i (fra kundens synspunkt).
-- Is går fra at være "slik til børn" til at være en "luksusspise for voksne".
+**Positions-innovation:** Ændring af den kontekst systemet anvendes i (fra kundens synspunkt).
+- Is går fra at være "slik til børn" til at være en mere alsidig nydelse blandt folk.
 
-**Paradigme-innovation:** Ændring af virksomhedens **grundlæggende selvforståelse** (identitet).
+**Paradigme-innovation:** Ændring af virksomhedens grundlæggende selvforståelse.
 - IBM går fra udelukkende at lave hardware til at sælge software og konsulentydelser.
 
 
