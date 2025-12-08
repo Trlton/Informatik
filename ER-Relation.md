@@ -34,7 +34,7 @@ E/R diagrammet giver det færdige overblik over:
 
 ## Eksempel på benyttesle:
 
-**Dette er et rough sketch, som ikke er færdiggjort. Man kan primært se kardinalitet, relationer og entiteter (bortset fra atributter)**
+**Dette er et rough sketch, som ikke er færdiggjort. Man kan primært se kardinalitet, relationer og entiteter (altså ikke atributter)**
 
 
 <img width="463" height="501" alt="image" src="https://github.com/user-attachments/assets/fc23c957-f782-47f5-9d80-0fa012cc26d5" />
