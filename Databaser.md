@@ -12,11 +12,17 @@ Undgå redundans - opdel tabeller.
 
 Det gør det nemmere at lave maintinance / ændringer, da ting ændres alle steder ved at ændre det et sted.
 
+Følgende normalformer er kort redegjort for med følgende kilde:
+
+https://balslev.io/programmering/database/normalisering-af-databaser/
+
+Dog ikke Boyce-Codd, som linkes til i eksemplet
+
 ### 1. Normalform
 
 * Atomare værdier: Hver celle må kun indeholde en værdi.
 * Ingen gentagende grupper: Må ikke have kolonner som f.eks. vare_1, vare_2
-* Hvis gentagende grupper: Split de gentagende grupper ud i en ny tabel og tag den gamle primærnøgle med over som Foreign Key.
+* Hvis gentagende grupper: split de gentagende grupper ud i en ny tabel og tag den gamle primærnøgle med over som Foreign Key.
 
 ---
 
@@ -25,7 +31,7 @@ Det gør det nemmere at lave maintinance / ændringer, da ting ændres alle sted
 * Skal overholde 1. normalform.
 * Alle felter, der ikke er en del af primærnøglen, skal afhænge af hele den sammensatte nøgle.
 * Må ikke indeholde partiel afhængighed (et felt afhænger kun af en del af nøglen).
-* Hvis du har partiel afhængighed: så split tabellen op, så du fjerner den partielle afhængighed.
+* Hvis man har partiel afhængighed: split tabellen op, så du fjerner den partielle afhængighed.
 
 ---
 
