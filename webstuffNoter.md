@@ -3,7 +3,7 @@
 ## Curl  
 - Bruges til at lave HTTP-anmodninger fra kommandolinjen  
 - Kan hente data fra web-API'er, teste endpoints, downloade filer  
-- Eksempel:  
+Eksempel:  
   ```sh
   curl -X GET https://example.com/api
   ```  
@@ -11,7 +11,7 @@
 ## NC - NetCat / ncat
 - Ligesom cat -> spytter alt tekst ud i en fil
 - NetCat bruges til at forbinde til en server, så derfra bestemmer man selv hvad man vil få ud
-- NetCar kan lytte efter forbindelse med
+NetCar kan lytte efter forbindelse med:
 ```sh
 ncat -l [port f.eks 8080]
 ```
@@ -27,7 +27,7 @@ https://www.varonis.com/blog/netcat-commands
 ## Nmap  
 - Netværksscanner til kortlægning af netværk og opdagelse af åbne porte  
 - Anvendes til sikkerhedsanalyse og penetrationstests  
-- Eksempel:  
+Eksempel:  
   ```sh
   nmap -sV -p 80,443 example.com
   ```
