@@ -4,19 +4,27 @@
 
 Kryptering bruges med henblik på at kun den tiltænkte modtager kan læse det.
 
-Det kan dog omgås med diverse tricks - som hvis man faktisk benytter en beskedtjenestes publickey (eller en delt privatekey), og den tænkte modtager gør det samme.
+Det kan dog omgås med diverse tricks - som hvis man faktisk benytter en beskedtjenestes publickey 
+(eller en delt privatekey), og den tænkte modtager gør det samme.
+
 ---
 
-### 1. Symmetrisk (Secret Key)
-* **En fælles Secret Key** til både kryptering og dekryptering.
-* **Fordel:** Super hurtig.
-* **Problem:** Nøglen skal deles sikkert, før man kan kommunikere. (svært, skal basically gøres fysisk.)
+### Caesar ciphering
+* Shifter alle tegn en bestemt mængde
+* F.eks. JEG -> KFH når beskeden shiftes med 1 tegn/bogstav
+
+---
+
+### Symmetrisk (delt Secret Key)
+* En fælles Secret Key til både kryptering og dekryptering.
+* Fordel: Super hurtig.
+* Problem: Nøglen skal deles sikkert, før man kan kommunikere. (svært, skal basically gøres fysisk.)
 
 <img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/3b8ec2a7-4820-464f-a795-5ca372c4e54e" />
 
 ---
 
-### 2. RSA (Asymmetrisk) (Public & Secret Key)
+### RSA (Asymmetrisk) (adskildt Public & Secret Key)
 * Bruger nøglepar: Public Key og Secret Key.
 * **Fordel:** Løser problemet med nøgledeling, fordi Secret Key ALDRIG deles.
 * **Problem:** Langsommere.
