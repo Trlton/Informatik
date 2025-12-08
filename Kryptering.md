@@ -55,6 +55,9 @@ Hashing =  Data laves om til en hash-værdi
 *  Brugses til at verificere data: Tjekke om downloadede filer er intakte.
 * Ved adgangskoder: Gemmer hashen af koden i databasen, som den compare med
 
+<img width="597" height="427" alt="image" src="https://github.com/user-attachments/assets/f8d1efb5-2888-4f3b-a70a-c39f064d5ba1" />
+
+
 -------------------
 
 .
