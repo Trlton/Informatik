@@ -16,7 +16,7 @@ Det kan dog omgås med diverse tricks - som hvis man faktisk benytter en beskedt
 
 ---
 
-### 2. Asymmetrisk (Public & Secret Key)
+### 2. RSA (Asymmetrisk) (Public & Secret Key)
 * Bruger nøglepar: Public Key og Secret Key.
 * **Fordel:** Løser problemet med nøgledeling, fordi Secret Key ALDRIG deles.
 * **Problem:** Langsommere.
@@ -44,9 +44,17 @@ Hashing =  Data laves om til en hash-værdi
 *  Brugses til at verificere data: Tjekke om downloadede filer er intakte.
 * Ved adgangskoder: Gemmer hashen af koden i databasen, som den compare med
 
+-------------------
 
-# Krypteringsprojekt (STIGNT) eksempler
+.
 
+# Krypteringsprojekt(er) eksempler
+
+### Eksempel på client-client RSA m. python
+https://github.com/Trlton/encryptionOpgaver/blob/main/encryptionOpg1.py
+
+
+### Præsentation af steganografi projekt
 
 <img width="711" height="557" alt="image" src="https://github.com/user-attachments/assets/ffd79f38-9d71-4dca-b346-d28025907c06" />
 
