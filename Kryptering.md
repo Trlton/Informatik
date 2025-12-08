@@ -29,15 +29,15 @@ Det kan dog omgås med diverse tricks - som hvis man faktisk benytter en beskedt
 
 ### RSA (Asymmetrisk) (adskildt Public & Secret Key)
 * Bruger nøglepar: Public Key og Secret Key.
-* **Fordel:** Løser problemet med nøgledeling, fordi Secret Key ALDRIG deles.
-* **Problem:** Langsommere.
+* Nice: Løser problemet med nøgledeling, fordi Secret Key ALDRIG deles.
+* Træls: Langsommere.
 
 <img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/8050505f-baa3-4b3b-9d8b-9e6c5edab98a" />
 
 
 #### Nøgleparret
-* **Public Key:** Offentlig. Bruges af alle til at **kryptere** data, som kun ejeren kan læse.
-* **Secret Key:** Hemmelig. Kun **ejeren** har den. Den **eneste** der kan **dekryptere** data krypteret med den tilhørende Public Key.
+* Public Key: Offentlig nøgle. Bruges af alle til at kryptere data, som kun ejeren kan læse.
+* Secret Key: Hemmelig nøgle. Kun ejeren (helst) har den. Den eneste nøgle der kan dekryptere data krypteret med den tilhørende Public Key.
 
 #### Digital Signatur
 * Bruges til at garantere hvem afsenderen er samt om beskeden er manipulleret af en 3. part (ved at sammenligne hash).
