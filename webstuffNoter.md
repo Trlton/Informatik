@@ -15,7 +15,7 @@ NetCar kan lytte efter forbindelse med:
 ```sh
 ncat -l [port f.eks 8080]
 ```
--l = listen
+(-l = listen)
 
 andre ncat commands:
 ```sh 
