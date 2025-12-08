@@ -20,9 +20,10 @@ Dog ikke Boyce-Codd, som linkes til i eksemplet
 
 ### 1. Normalform
 
-* Atomare værdier: Hver celle må kun indeholde en atomar værdi
+* Hver celle må kun indeholde en atomar værdi
 * Ingen gentagende grupper: Må ikke have kolonner som f.eks. vare_1, vare_2
 * Hvis gentagende grupper: split de gentagende grupper ud i en ny tabel og tag den gamle primærnøgle med over som Foreign Key.
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/8cbe86d6-abd9-4f67-8f39-037e1354eeaf" />
 
 ---
 
@@ -32,6 +33,8 @@ Dog ikke Boyce-Codd, som linkes til i eksemplet
 * Alle felter, der ikke er en del af primærnøglen, skal afhænge af hele den sammensatte nøgle.
 * Må ikke indeholde partiel afhængighed (et felt afhænger kun af en del af nøglen).
 * Hvis man har partiel afhængighed: split tabellen op, så du fjerner den partielle afhængighed.
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/9d5f1741-83b9-425c-93af-3db7692cc17d" />
+
 
 ---
 
@@ -41,6 +44,8 @@ Dog ikke Boyce-Codd, som linkes til i eksemplet
 * Der må ikke findes felter UDEN FOR primærnøglen, som er indbyrdes afhængige af hinanden.
 * Må ikke have Ingen transitive afhængigheder: (F.eks. KundeID -> Postnummer -> By).
 * Hvis der er transitive afhængigheder: Flyt de indbyrdes afhængige felter (som Postnummer/By-eksemplet) ud i nye tabeller.
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/e2bfa9fa-daea-49c1-95a5-e8d0a4317255" />
+
 
 ---
 
