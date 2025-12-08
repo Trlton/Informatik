@@ -16,7 +16,7 @@ Det kan dog omgås med diverse tricks - som hvis man faktisk benytter en beskedt
 
 ---
 
-### 2. Asymmetrisk (Public Key)
+### 2. Asymmetrisk (Public & Secret Key)
 * Bruger nøglepar: Public Key og Secret Key.
 * **Fordel:** Løser problemet med nøgledeling, fordi Secret Key ALDRIG deles.
 * **Problem:** Langsommere.
@@ -41,10 +41,8 @@ Hashing =  Data laves om til en hash-værdi
 
 * Det benyttes til at sikre integritet af data - ( altså, har dataen blevet pillet ved?).
     * Hvis en bit ændres, er hashen helt anderledes.
-* **Anvendes til:**
-    * **Verificere data:** Tjekke om downloadede filer er intakte.
-    * **Adgangskoder:** Gemmer **kun hashen** af koden i DB'en. Systemet kender aldrig den originale kode.
-
+*  Brugses til at verificere data: Tjekke om downloadede filer er intakte.
+* Ved adgangskoder: Gemmer hashen af koden i databasen, som den compare med
 
 
 # Krypteringsprojekt (STIGNT) eksempler
