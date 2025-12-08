@@ -20,7 +20,7 @@ Dog ikke Boyce-Codd, som linkes til i eksemplet
 
 ### 1. Normalform
 
-* Atomare værdier: Hver celle må kun indeholde en værdi.
+* Atomare værdier: Hver celle må kun indeholde en atomar værdi
 * Ingen gentagende grupper: Må ikke have kolonner som f.eks. vare_1, vare_2
 * Hvis gentagende grupper: split de gentagende grupper ud i en ny tabel og tag den gamle primærnøgle med over som Foreign Key.
 
