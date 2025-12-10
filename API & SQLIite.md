@@ -13,8 +13,6 @@ Dette projekt bruger flask** til at lave en APIog SQLite som datalag
 API'en fungerer som mellemlaget og definerer endpoints til systemet.
 
 ### Data modtagelse (POST Request)
-* Ruten /data er den primære API-rute til modtagelse af ny data fra sensor
-* Metode bruger post
 
 ```python
 @app.route('/data', methods=['POST')
@@ -24,10 +22,11 @@ def receive_data():
     return jsonify({"status": "ok", "received": content}), 200 # Returnerer JSON-svar
 ```
 
-### Logic 
-* Logikken bor i Flask-funktionerne, f.eks. sortering eller tjek om værdier er under en bestemt værdi (regler ift luftkvalitet)
+### Logic
+* f.eks. sortering eller tjek om værdier er under en bestemt værdi (regler ift luftkvalitet)
 
-* Eksempel: Ruten /anbefalinger tjekker, om den målte CO₂ og temperatur bryder forretningsreglerne (CO₂ > 1000, Temp < 20 osv.).
+Eksempel: Ruten /anbefalinger tjekker, om den målte CO₂ og temperatur bryder indeklima retningslinjer (CO₂ > 1000, Temp < 20 osv)
+
 ```python
 # Tjekker mod forretningsregler
 if l["co2"] > 1000:
@@ -40,7 +39,7 @@ if l["temperatur"] < 20:
 SQLite bruges til kontinuerlig lagring af sensordata
 
 ### Database Oprettelse
-* init_db(): Kaldes ved opstart (if __name__ == "__main__": init_db()) for at sikre, at databasen og tabellen (sensor_data) findes.
+* init_db(): Kaldes ved start (if __name__ == "__main__": init_db()) for at sikre, at databasen og tabellen (sensor_data) eksisterer, og laver dem hvis de ikke gør.
 
 ``` python
 conn = sqlite3.connect("items.db")
@@ -54,7 +53,8 @@ conn.commit()
 ```
 
 ### Lagring af Data
-* Data der modtages via POST til /data, indsættes i databasen.
+* Data der modtages via POST til /data, indsættes i databasen
+
 ```python
 c.execute("""
     INSERT INTO sensor_data (klasse, co2, temperatur, luftfugtighed)
@@ -63,10 +63,11 @@ c.execute("""
 conn.commit()
 ```
 
-### Selection og Aggregating
-* API'en henter data fra SQLite til visning (f.eks. historik).
+### Selection og Aggregation (dannelse af view)
+* API'en henter data fra SQLite til at lave et bestemt "view" for brugeren. (f.eks. historik).
+
   
-* Eksempel (/historik): Data grupperes og bliver aggregated ved brug af SQL for at vise gennemsnit pr. minut, hvilket reducerer mængden af data, der skal trækkes ud.
+Eksempel: (/historik): Data grupperes og bliver aggregated ved brug af SQL for at vise gennemsnit pr. minut, hvilket reducerer mængden af data, der skal trækkes ud.
 ```python
 
 SELECT strftime('%Y-%m-%d %H:%M:00', tidspunkt) as minut,
