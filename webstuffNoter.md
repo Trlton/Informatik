@@ -1,4 +1,6 @@
-# Tools  
+# Tools
+
+tekst importeret fra noter på OneNote mostly
 
 ## Curl  
 - Bruges til at lave HTTP-anmodninger fra kommandolinjen  
@@ -33,12 +35,12 @@ Eksempel:
   ```
 
 # Flask + SQLite  
-- Flask: Letvægts Python-webframework til API'er og webapps  
+- Flask: letvægts Python-webframework til API'er og webapps  
 - SQLite: Embedded databasesystem, godt til mindre projekter  
 - Eksempel: Flask + SQLite kan bruges til en simpel CRUD-app  
 
 # Bug Bounty & Responsible Disclosure  
-- Bug Bounty: Programmer hvor virksomheder belønner sikkerhedsforskere for at finde sårbarheder  
+- Bug Bounty: Programmer hvor virksomheder belønner folk for at finde sårbarheder/bugs 
 - Responsible Disclosure: Etiske retningslinjer for at rapportere sårbarheder på en ansvarlig måde  
 - CVE (Common Vulnerabilities and Exposures): Unik ID for kendte sårbarheder (fx CVE-2024-XXXX)  
 
@@ -49,7 +51,7 @@ Eksempel:
 - Hardware som routere, switche, access points  
 
 ## 2. Data Link Layer  
-- Sikrer fejlfri datatransmission mellem enheder  
+- Sikrer "fejlfri" datatransmission mellem enheder  
 - Teknologier: MAC-adresser, Ethernet, Wi-Fi (802.11)  
 
 ## 3. Network Layer  
@@ -74,7 +76,7 @@ Eksempel:
 - Protokoller: HTTP, FTP, SMTP, DNS  
 
 # SQL injection
-Det handler om at der er en computer der skal læse ting
-Hvis man kan få computeren til at end indtastede brugernavn er en commando
+- Det handler om at der er en computer der -skal læse ting
+- Hvis man kan få computeren til at end indtastede brugernavn er en commando
 Så afvikler den det og giver tilbage / gør det du vil have den til
-Det kan ødelægge en database
+- Det kan ødelægge en database
