@@ -4,13 +4,12 @@
 
 # E/R 
 
-* Det er **planen**. En tegning af din database, FØR du bygger den.
-* Sikrer at strukturen er gennemtænkt og ikke tilfældig.
+* Det er tegning af ens database før den bygges.
+* Sikrer at strukturen er gennemtænkt og ikke tilfældig & evt lever op til normalformer
 
 ## Entiteter 
-* De primære **objekter** systemet arbejder med (f.eks. Bruger, Produkt, Bestilling).
-* **Attributter:** Egenskaber/datafelter tilknyttet entiteten.
-    * Her identificeres **nøgler** (ID'er) og alm. datafelter.
+* De primære objekter systemet arbejder med (f.eks. Bruger, Produkt, Bestilling).
+* Attributter: Egenskaber/datafelter tilknyttet entiteten.
 
 ## Relationer 
 
@@ -19,17 +18,17 @@
 
 ### Kardinalitet
 
-* **1 til 1:** En til En (F.eks. Bruger til Login-info).
-* **1 til Mange:** En til M (F.eks. Kunde til Bestillinger).
-* **Mange til Mange (M:M):** M til M (F.eks. Studerende til Fag).
+* *1 til 1: En til En (F.eks. en bruger til en login-info).
+* 1 til Mange: En til M (F.eks. en kunde til mange bestillinger).
+* Mange til Mange: M til M (F.eks. mange studerende til mange fag).
 
 ## Resultat
 
-E/R diagrammet giver det færdige overblik over:
+E/R diagrammet giver overblik over:
 
-1.  Hvilke **tabeller** vi skal lave.
-2.  Hvilke **nøgler** (PK/FK) der skal bruges.
-3.  Hvordan data skal **join'es** senere.
+1.  Hvilke tabeller der skal laves.
+2.  Hvilke nøgler (Primær/Forign) der skal bruges.
+3.  Hvordan data skal joines senere.
 
 
 ## Eksempel på benyttesle:
