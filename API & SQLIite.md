@@ -12,7 +12,7 @@ Dette projekt bruger flask** til at lave en APIog SQLite som datalag
 
 API'en fungerer som mellemlaget og definerer endpoints til systemet.
 
-### Data modtagelse (POST Request)
+### Data modtagelse (POST request)
 
 ```python
 @app.route('/data', methods=['POST')
@@ -25,7 +25,7 @@ def receive_data():
 ### Logic
 * f.eks. sortering eller tjek om værdier er under en bestemt værdi (regler ift luftkvalitet)
 
-Eksempel: Ruten /anbefalinger tjekker, om den målte CO₂ og temperatur bryder indeklima retningslinjer (CO₂ > 1000, Temp < 20 osv)
+Eksempel: ruten /anbefalinger tjekker, om den målte CO₂ og temperatur bryder indeklima retningslinjer (CO₂ > 1000, Temp < 20 osv)
 
 ```python
 # Tjekker mod forretningsregler
@@ -39,7 +39,7 @@ if l["temperatur"] < 20:
 SQLite bruges til kontinuerlig lagring af sensordata
 
 ### Database oprettelse
-* init_db(): Kaldes ved start (if __name__ == "__main__": init_db()) for at sikre, at databasen og tabellen (sensor_data) eksisterer, og laver dem hvis de ikke gør.
+* init_db(): kaldes ved start for at sikre, at databasen og tabellen (sensor_data) eksisterer, og laver dem hvis de ikke gør.
 
 ``` python
 conn = sqlite3.connect("items.db")
@@ -53,7 +53,7 @@ conn.commit()
 ```
 
 ### lagring af data
-* Data der modtages via POST til /data, indsættes i databasen
+* data der modtages via POST til /data, indsættes i databasen
 
 ```python
 c.execute("""
@@ -67,7 +67,7 @@ conn.commit()
 * API'en henter data fra SQLite til at lave et bestemt "view" for brugeren. (f.eks. historik).
 
   
-Eksempel: (/historik): Data grupperes og bliver aggregated ved brug af SQL for at vise gennemsnit pr. minut, hvilket reducerer mængden af data, der skal trækkes ud.
+Eksempel: (/historik) data grupperes og bliver aggregated ved brug af SQL for at vise gennemsnit pr. minut, hvilket reducerer mængden af data, der skal trækkes ud.
 ```python
 
 SELECT strftime('%Y-%m-%d %H:%M:00', tidspunkt) as minut,
