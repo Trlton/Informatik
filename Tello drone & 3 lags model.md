@@ -20,8 +20,8 @@ Præsentation har blokkode side, hvor man kan programere dronen til at flyve en 
 
 
 
-### Præsentation af grafik, tekst, billeder o.l. til brugeren
-### Sende information mellem præsentationslaget og logiklaget.
+#### Præsentation af grafik, tekst, billeder o.l. til brugeren
+#### Sende information mellem præsentationslaget og logiklaget.
 
 
 
