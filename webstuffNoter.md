@@ -76,7 +76,7 @@ Eksempel:
 - Protokoller: HTTP, FTP, SMTP, DNS  
 
 # SQL injection
-- Det handler om at der er en computer der -skal læse ting
-- Hvis man kan få computeren til at end indtastede brugernavn er en commando
-Så afvikler den det og giver tilbage / gør det du vil have den til
+- Det handler om at der er en computer der skal læse ting
+- Hvis man f.eks. kan få computeren til at tro detvindtastede brugernavn er en commando,
+så afvikler den det og giver tilbage / gør det du vil have den til
 - Det kan ødelægge en database
