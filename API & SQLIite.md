@@ -8,7 +8,7 @@ Dette projekt bruger flask** til at lave en APIog SQLite som datalag
 
 ---
 
-## 1. API Laget 
+## 1. API laget 
 
 API'en fungerer som mellemlaget og definerer endpoints til systemet.
 
@@ -35,10 +35,10 @@ if l["temperatur"] < 20:
     problemer.append("For koldt")
 ```
 ---
-## 2. Data Laget (SQLite)
+## 2. Data laget (SQLite)
 SQLite bruges til kontinuerlig lagring af sensordata
 
-### Database Oprettelse
+### Database oprettelse
 * init_db(): Kaldes ved start (if __name__ == "__main__": init_db()) for at sikre, at databasen og tabellen (sensor_data) eksisterer, og laver dem hvis de ikke gør.
 
 ``` python
@@ -52,7 +52,7 @@ c.execute("""
 conn.commit()
 ```
 
-### Lagring af Data
+### lagring af data
 * Data der modtages via POST til /data, indsættes i databasen
 
 ```python
@@ -63,7 +63,7 @@ c.execute("""
 conn.commit()
 ```
 
-### Selection og Aggregation (dannelse af view)
+### Selection og aggregation (dannelse af view)
 * API'en henter data fra SQLite til at lave et bestemt "view" for brugeren. (f.eks. historik).
 
   
