@@ -49,20 +49,20 @@ Sende information til logiklaget.
 
 # Server-Client
 
-# 3-lags Modellen (Three-Tier Architecture)
+# 3-lags Modellen
 
-* En der opdeler systemet i tre separate lag samt hvordan de interagere med hinanden.
-* Formål: At adskille ansvar til at ungå redundans og undgå spaghetti-kode. Desuden gør det det nemmere at forstå systemer, idet det er en analysemodel.
+*  systemet deles i tre lag samt  
+* gøres for at ungå redundans og undgå spaghetti-kode. Desuden gør det det nemmere at forstå systemer, idet det er en analysemodel.
 
 
 
 ## Lagene
 
-**Præsentation Lag** Brugergrænseflade (UI). Alt det brugeren ser (Frontend).
+**Præsentation** Brugergrænseflade (UI). Alt det brugeren ser i frontend
 
-**Logik Lag** Forretningsregler, funktioner og beregninger (Logikken)
+**Logik** funktioner og beregninger
 
-**Data Lag**   Håndterer databasen, datamodeller og queries (Lagring/Hentning).
+**Data Lag**   Håndterer databasen
 
 ----
 
