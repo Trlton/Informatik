@@ -3,11 +3,11 @@
 Vurderingsmodel for at forstå, hvordan et IT-system eller en løsning har inoveret -samt i hvor stor grad.
 
 
-Radikal innovation er, når der er tale om en markant innovation. Det vil sige at der er tale om en forandring.
+Radikal innovation er, når der er tale om en markant innovation. Det vil sige at der er tale om en stor forandring.
 
-Inkrementel innovation er, når der er tale om en forbedring i forhold til det eksisterende.
+Inkrementel innovation er, når der er tale om en lille forbedring/ændring i forhold til det eksisterende.
 
-Bemærk at et it-system ikke både kan være en inkrementel innovation og en radikal innovation på samme tid.
+Bemærk at et it-system ikke både kan være en inkrementel innovation og en radikal innovation på samme tid på forskellige punkter. Det er typisk kun en af dem though.
 
 
 
