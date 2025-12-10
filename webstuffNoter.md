@@ -5,7 +5,7 @@
 - Kan hente data fra web-API'er, teste endpoints, downloade filer  
 Eksempel:  
   ```sh
-  curl -X GET https://example.com/api
+  curl -X GET https://lego.dk/api
   ```  
 
 ## NC - NetCat / ncat
@@ -29,7 +29,7 @@ https://www.varonis.com/blog/netcat-commands
 - Anvendes til sikkerhedsanalyse og penetrationstests  
 Eksempel:  
   ```sh
-  nmap -sV -p 80,443 example.com
+  nmap -sV -p 80,443 lego.dk
   ```
 
 # Flask + SQLite  
