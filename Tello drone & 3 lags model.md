@@ -51,8 +51,9 @@ Sende information til logiklaget.
 
 # 3-lags Modellen
 
-*  systemet deles i tre lag samt  
-* gøres for at ungå redundans og undgå spaghetti-kode. Desuden gør det det nemmere at forstå systemer, idet det er en analysemodel.
+*  systemet deles i tre lag
+* gøres for at ungå redundans og undgå spaghetti-kode.
+* Primært gør det det nemmere at forstå systemer, idet det er en analysemodel.
 
 
 
