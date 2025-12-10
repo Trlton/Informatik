@@ -4,7 +4,7 @@ Dette tager udgangspunkt i projektet:
 https://github.com/hojgfd/DATA-API-projekt.git
 
 
-Dette projekt bruger flask** til at lave en APIog SQLite som datalag
+Dette projekt bruger flask til at lave en APIog SQLite som datalag
 
 ---
 
