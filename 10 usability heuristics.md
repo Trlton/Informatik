@@ -2,61 +2,61 @@
 
 
 ### 1: Visibility of System Status
-Feedback: Systemet skal ALTID fortælle brugeren, hvad der sker.
+Systemet skal fortælle brugeren hvad der sker.
 Giv hurtig og relevant feedback (f.eks. loading, bekræftelser).
 
 
 .
 
 ### 2: Match Between the System and the Real World
-Sprog: Brug sprog, symboler og koncepter, som brugeren kender fra den virkelige verden.
-Følg kendte konventioner.
+Brug sprog, symboler og koncepter, som brugeren kender fra den virkelige verden.
+Følg normer fra virkeligheden 
+
+(no weird shit like naming buttons after Harry Potter characters)
 
 
 .
 
 ### 3: User Control and Freedom
-Nødudgang: Brugeren skal nemt kunne fortryde eller stoppe handlinger.
-Giv klare Undo/Redo og nemme annulleringsmuligheder.
+Brugeren skal nemt kunne fortryde eller stoppe handlinger.
+
+altså undo/redo og nemme annulleringsmuligheder, ligesom word f.eks.
 
 .
 
 ### 4: Consistency and Standards
-Ensartethed: Samme handling skal altid have samme effekt.
-Følg interne og eksterne standarder for design og sprog.
+Samme handling skal altid have samme effekt.
+Følg standarder for design og sprog.
 
+Dont randomize actions you weirdo.
 .
 
 ### 5: Error Prevention
-Forebyg: Design systemet, så brugeren slet ikke kan lave fejl.
-Fjern fejl-betingelser eller bed om bekræftelse ved kritiske handlinger.
+Design systemet så brugeren næsten ikke kan lave fejl. Dog laves der altid en bedre idiot sååå...
 
 .
 
 ### 6: Recognition Rather than Recall
-Synlighed: Gør valg og information synlige, så brugeren ikke skal huske info fra ét skærmbillede til et andet.
-Genkendelse er bedre end genkaldelse.
+Genkendelse er bedre end genkaldelse. En tilbageknap skal gerne følge normen, som en tilbage pil f.eks.
 
 .
 
 ### 7: Flexibility and Efficiency of Use
-Tilpasning:Systemet skal fungere for både nybegyndere og erfarne brugere.
-Tilbyd genvejstaster eller andre "accelerators" til de erfarne.
+Systemet skal fungere for både nybegyndere og erfarne brugere. Det kan gøres ved at indsætte hot-keys / genvejstaster. Ligesom Excel.
 
 .
 
 ### 8: Aesthetic and Minimalist Design
-Minimalisme: Fjern irrelevant eller sjældent nødvendig information.
-Hvert ekstra element konkurrerer om opmærksomheden. Hold det rent.
+Nej til irrelevant eller sjældent nødvendig information.
+Hver ekstra info konkurrerer om opmærksomheden. Hold det rent, don't be a dick, especially to some neurodivergents.
 
 .
 
 ### 9: Help Users Recognize, Diagnose, and Recover from Errors
-Fejlbeskeder: Skal være lette at forstå og uden koder.
-Fortæl præcist, hvad problemet er, og foreslå en løsning
+Fejlbeskeder som er lette at forstå.
+Fortæl præcist, hvad problemet er og foreslå en løsning. (måske kan systemet endda løse problemet selv?)
 
 .
 
 ### 10: Help and Documentation
-Selvom systemet skal være intuitivt, skal let tilgængelig dokumentation være tilgængelig, så man kan få hjælp til navigation/brug.
-Hjælpen skal være målrettet og klar.
+Selvom systemet skal være intuitivt skal dokumentation være tilgængelig, så man kan få hjælp til navigation/brug.
