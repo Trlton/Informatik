@@ -8,7 +8,8 @@ Dette projekt handler om, hvordan man kan få en autonom robot til at accepteres
 Ud fra dette ide-træ er der valgt noget:
 https://miro.com/app/board/uXjVGTnhFJA=/?share_link_id=236039784756
 
-<img width="1522" height="820" alt="image" src="https://github.com/user-attachments/assets/a5b76149-9cd1-4bbd-b661-8c30ef00a9b7" />
+<img width="1267" height="681" alt="image" src="https://github.com/user-attachments/assets/942363d9-2c7f-49d9-a25f-95bb04715f67" />
+
 
 Vi har valgt at arbejde med at, ud fra hvad den autonome robot oplever, den vil den reagere audiativt og visuelt på stimuli.
 Dette kan f.eks. være at den kører fremad/bagud, rystes, venter på at køre over et kryds osv.
