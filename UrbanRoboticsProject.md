@@ -42,8 +42,8 @@ Køre bagud
 
 ## Ideer til komponenter
 
-Arduinno
-ESP32
-LCD display
-Højtaler
-Accelerometer
+1) Arduinno
+2) ESP32
+3) LCD display
+4) Højtaler
+5) Accelerometer
