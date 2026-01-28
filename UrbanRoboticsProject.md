@@ -39,3 +39,11 @@ Køre fremad
 
 Køre bagud
 - Dreje retning
+
+## Ideer til komponenter
+
+Arduinno
+ESP32
+LCD display
+Højtaler
+Accelerometer
