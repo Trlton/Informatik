@@ -15,3 +15,27 @@ Dette kan f.eks. være at den kører fremad/bagud, rystes, venter på at køre o
 
 Her vælges det at benytte en højtaler og LCD skærme.
 LCD skærmen er til at display et ansigt og to øjne.
+
+
+## Workshop m. komunen
+
+Denne dag skulle vi finde aktører der kunne påvirkes af teknologien, eller som på nogen måde har en, ja, del i det.
+
+Her blev der fundet frem til:
+- Handikap (syns, lydmæssigt, lydsensitive osv)
+- Personer i bybilledet generelt
+- Gadebutiksejere (kan forstyrre deres kunder evt.)
+- Robotfirma der skal købe dele er servicere de autonome robotter, evt også holde opsyn med dem
+- Komune og stat ift lovgivning og mulighed for at teste robotterne (samt eventuelle klager)
+
+
+## Ideer til scenarier den kan reagere på:
+
+Holde stille
+- Vente ved rødt lys
+
+Køre fremad
+- Dreje retning
+
+Køre bagud
+- Dreje retning
