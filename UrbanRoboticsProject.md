@@ -75,13 +75,13 @@ Iteration 2
 <img width="795" height="553" alt="image" src="https://github.com/user-attachments/assets/7048c8bc-36ec-46a9-bdab-5f1e13a5fd21" />
 
 
-## Flowchart over tænkt løsning
+## Flowchart over tænkt løsning - iteration 1 (kinda 4)
 
 <img width="452" height="912" alt="image" src="https://github.com/user-attachments/assets/23e3c385-63b9-4ff3-a921-7d4afee179ef" />
 
 
 
-## Flowchart over faktisk løsning
+## Flowchart over faktisk løsning 
 
 <img width="450" height="550" alt="image" src="https://github.com/user-attachments/assets/300e4297-41f8-40b7-9108-a011d9fb0a19" />
 
