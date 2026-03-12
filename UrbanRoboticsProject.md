@@ -51,6 +51,10 @@ Køre fremad
 Køre bagud
 - Dreje retning
 
+Oplever ryst
+
+Væltet
+
 ## Ideer til komponenter
 
 1) Arduinno
