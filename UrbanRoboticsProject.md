@@ -44,6 +44,13 @@ Her blev der fundet frem til:
 
 _______________________
 
+## User stories
+
+<img width="640" height="250" alt="image" src="https://github.com/user-attachments/assets/3a83da46-8e02-4457-a661-870e08688441" />
+
+
+_______________________
+
 ## Ideer til scenarier den kan reagere på:
 
 Holde stille
