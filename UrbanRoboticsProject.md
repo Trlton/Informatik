@@ -70,7 +70,7 @@ Væltet
 
 <img width="1141" height="622" alt="image" src="https://github.com/user-attachments/assets/3e5c40a2-bb87-4d50-bb30-1d72f9c2b5c2" />
 
-
+Her er der en ny måde jeg fortolker hvordan man kan lave 3-lags-modeller, som er mindre flowchart agtige.
 
 
 ## 3-lags-model af udarbejdet løsning
