@@ -122,7 +122,7 @@ _______________________
 ## Usaibility Heuristics påvirkning på designet
 
 
-<img width="902" height="394" alt="image" src="https://github.com/user-attachments/assets/d273d858-acf9-4827-8dee-8a752ad44dce" />
+<img width="450" height="200" alt="image" src="https://github.com/user-attachments/assets/d273d858-acf9-4827-8dee-8a752ad44dce" />
 
-<img width="939" height="612" alt="image" src="https://github.com/user-attachments/assets/daec0b3e-d846-4ce3-8aac-016535936a9e" />
+<img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/daec0b3e-d846-4ce3-8aac-016535936a9e" />
 
