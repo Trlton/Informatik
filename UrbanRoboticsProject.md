@@ -6,11 +6,13 @@ Github: https://github.com/Fredehjort/UrbanRobotics-HTX-AFR/tree/main
 
 MiroBoard: https://miro.com/app/board/uXjVGTnhFJA=/?share_link_id=194963977682
 
+_______________________
 
 
 # Project intro
 Dette projekt handler om, hvordan man kan få en autonom robot til at accepteres nemmere i bybilledet.
 
+_______________________
 
 
 ## Valg af retning
@@ -27,6 +29,7 @@ Dette kan f.eks. være at den kører fremad/bagud, rystes, venter på at køre o
 Her vælges det at benytte en højtaler og LCD skærme.
 LCD skærmen er til at display et ansigt og to øjne.
 
+_______________________
 
 ## Workshop m. komunen
 
@@ -39,6 +42,7 @@ Her blev der fundet frem til:
 - Robotfirma der skal købe dele er servicere de autonome robotter, evt også holde opsyn med dem
 - Komune og stat ift lovgivning og mulighed for at teste robotterne (samt eventuelle klager)
 
+_______________________
 
 ## Ideer til scenarier den kan reagere på:
 
@@ -54,6 +58,7 @@ Køre bagud
 Oplever ryst
 
 Væltet
+_______________________
 
 ## Ideer til komponenter
 
@@ -69,7 +74,7 @@ Væltet
 -	D1mini32+grove Shield
 -	Grove-LCD RGB Backlight
 -	6-axis gyroscope and accelerometer BMI088 v1.1
-
+_______________________
 
 ## 3-lags-model af Arli-robot
 
@@ -78,27 +83,39 @@ Væltet
 
 Her er der en ny måde jeg fortolker hvordan man kan lave 3-lags-modeller, som er mindre flowchart agtige.
 
+_______________________
 
 ## 3-lags-model af udarbejdet løsning
 Iteration 2
 
 <img width="795" height="553" alt="image" src="https://github.com/user-attachments/assets/7048c8bc-36ec-46a9-bdab-5f1e13a5fd21" />
 
+_______________________
 
 ## Flowchart over tænkt løsning - iteration 1 (kinda 4)
 
 <img width="452" height="912" alt="image" src="https://github.com/user-attachments/assets/23e3c385-63b9-4ff3-a921-7d4afee179ef" />
 
+_______________________
 
 
 ## Flowchart over faktisk løsning 
 
 <img width="450" height="550" alt="image" src="https://github.com/user-attachments/assets/300e4297-41f8-40b7-9108-a011d9fb0a19" />
 
+_______________________
 
 ## Casing til elektronik (løsning) - iteration 1
 <img width="305" height="260" alt="image" src="https://github.com/user-attachments/assets/066fc15e-f46f-4309-a608-3a401dc56e38" />
 <img width="277" height="286" alt="image" src="https://github.com/user-attachments/assets/4291f541-a74d-4b65-a510-fffcd9da6355" />
 <img width="277" height="266" alt="image" src="https://github.com/user-attachments/assets/c19c7163-90d1-484e-93d5-4076dd6a0d60" />
 
+_______________________
+
+## Usaibility Heuristics påvirkning på designet
+
+
+<img width="902" height="394" alt="image" src="https://github.com/user-attachments/assets/d273d858-acf9-4827-8dee-8a752ad44dce" />
+
+<img width="939" height="612" alt="image" src="https://github.com/user-attachments/assets/daec0b3e-d846-4ce3-8aac-016535936a9e" />
 
