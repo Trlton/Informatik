@@ -63,6 +63,12 @@ Væltet
 4) Højtaler
 5) Accelerometer
 
+## Valgte komponenter
+-	I2S Audio Breakout
+-	Speaker
+-	D1mini32+grove Shield
+-	Grove-LCD RGB Backlight
+-	6-axis gyroscope and accelerometer BMI088 v1.1
 
 
 ## 3-lags-model af Arli-robot
