@@ -1,5 +1,7 @@
 # 10 usability heuristics
 
+## Eksempel på brug
+
 
 ### 1: Visibility of System Status
 Systemet skal fortælle brugeren hvad der sker.
